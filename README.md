@@ -60,7 +60,7 @@ dummyjson_ui_api_automation/
 └── requirements.txt
 ```
 
-##Whaat each layer does 
+## What each layer does 
 
 ui/index.html
 - Displays products visually
