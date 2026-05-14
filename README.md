@@ -80,7 +80,7 @@ products_page.py
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dummyjson-ui-api-automation.git
+git clone https://github.com/ChickChickk/dummyjson-ui-api-automation.git
 cd dummyjson-ui-api-automation
 ```
 
