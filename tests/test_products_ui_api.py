@@ -1,4 +1,5 @@
 import os 
+import time
 
 from api.products_api import ProductsAPI
 from pages.products_page import ProductsPage
@@ -21,7 +22,13 @@ def test_ui_products_match_api_products(driver):
         print(f"API: {api_product['title']} - {api_product['price']}")
         print("---")
 
-        assert ui_product["title"] == api_product["title"]
-        assert float(ui_product["price"]) == float(api_product['price'])
+        assert ui_product["title"] == api_product["title"], (
+            f"Title mismatch: UI = '{ui_product['price']}', API = '{api_product['price']}"
+        )
+
+        assert float(ui_product["price"]) == float(api_product["price"]), (
+            f"Title mismatch: UI = '{ui_product['price']}', API = '{api_product['price']}"
+        )
 
     assert len(ui_products) == len(api_products)
+    time.sleep(3)
