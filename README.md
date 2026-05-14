@@ -6,6 +6,8 @@ This project is a UI + API automation testing framework built with Selenium, Pyt
 
 The goal of the project is to validate that frontend product data displayed on the UI matches the backend API response from DummyJSON.
 
+<img width="1300" height="800" alt="automation" src="https://github.com/user-attachments/assets/48605926-5988-4342-9d79-71c177f08364" />
+
 ---
 
 ## Tech Stack
