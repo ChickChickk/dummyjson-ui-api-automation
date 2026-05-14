@@ -130,10 +130,6 @@ This project was created to practice:
 - UI and backend data validation
 - Integration testing concepts
 
-
-
-test_products_api.py
-Checks backend works
-
-test_products_api.py
-Checks frontend displays products
+test_products_api.py checks backend/API responses
+test_products_ui.py checks frontend product rendering
+test_products_ui_api.py compares UI data with API data
